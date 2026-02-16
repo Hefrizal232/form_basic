@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Form Pendaftaran</h2>
+
+      <form>
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="Masukkan nama..." required />
+
+        <label>Email</label>
+        <input type="email" placeholder="Masukkan email..." required />
+
+        <label>Password</label>
+        <input type="password" placeholder="Masukkan password..." required />
+
+        <label>Jenis Kelamin</label>
+
+        <div class="radio">
+          <label class="radio-item">
+            <input type="radio" name="gender" /> Laki-laki
+          </label>
+          <label class="radio-item">
+            <input type="radio" name="gender" /> Perempuan
+          </label>
+        </div>
+
+        <label>Jurusan</label>
+        <select>
+          <option>Teknik Informatika</option>
+          <option>Sistem Informasi</option>
+        </select>
+
+        <button type="submit">Daftar</button>
+      </form>
+    </div>
+  </body>
+</html>
